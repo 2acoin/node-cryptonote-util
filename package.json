@@ -1,5 +1,5 @@
 {
-    "name": "turtlecoin-cryptonote-util",
+    "name": "2acoin-cryptonote-util",
     "version": "0.0.6",
     "main": "cryptonote",
     "gypfile": true,
@@ -8,12 +8,13 @@
         "email": "lucasjonesdev@hotmail.co.uk"
     },
     "contributors": [
-        "Brandon Lehmann <brandonlehmann@gmail.com>"
+        "Brandon Lehmann <brandonlehmann@gmail.com>",
+        "2ACoin Developers <info@2acoin.org>"
     ],
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/turtlecoin/node-cryptonote-util.git"
+        "url": "https://github.com/accoin/node-cryptonote-util.git"
     },
     "scripts": {
         "test": "node-gyp clean && node-gyp configure && node-gyp build && node test.js"
