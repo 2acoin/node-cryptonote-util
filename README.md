@@ -7,8 +7,6 @@
 #### Development Build Status
 [![Build Status](https://travis-ci.org/2acoin/node-cryptonote-util.svg?branch=development)](https://travis-ci.org/node-cryptonote-util/2acoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/2acoin/node-cryptonote-util?branch=development&svg=true)](https://ci.appveyor.com/project/2acoin/node-cryptonote-util/branch/development)
 
-[![NPM](https://nodei.co/npm/2acoin-cryptonote-util.png?downloads=true&stars=true)](https://nodei.co/npm/2acoin-cryptonote-util/)
-
 # Node-Cryptonote-Util
 
 Supported on the following platforms:
