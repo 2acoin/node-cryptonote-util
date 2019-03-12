@@ -14,7 +14,7 @@
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/accoin/node-cryptonote-util.git"
+        "url": "https://github.com/2acoin/node-cryptonote-util.git"
     },
     "scripts": {
         "test": "node-gyp clean && node-gyp configure && node-gyp build && node test.js"
