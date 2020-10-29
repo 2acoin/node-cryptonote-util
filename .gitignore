@@ -132,3 +132,5 @@ typings/
 .idea
 *.iml
 build
+prebuilds
+dist

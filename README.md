@@ -1,11 +1,11 @@
+<<<<<<< HEAD
 ![image](https://i.imgur.com/fWVGDMA.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/2acoin/node-cryptonote-util.svg?branch=master)](https://travis-ci.org/node-cryptonote-util/2acoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/2acoin/node-cryptonote-util?branch=master&svg=true)](https://ci.appveyor.com/project/2acoin/node-cryptonote-util/branch/master)
-
+[![Build Status](https://github.com/2acoin/node-cryptonote-util/workflows/CI%20Build%20Tests/badge.svg?branch=master)](https://github.com/2acoin/node-cryptonote-util/actions)
 
 #### Development Build Status
-[![Build Status](https://travis-ci.org/2acoin/node-cryptonote-util.svg?branch=development)](https://travis-ci.org/node-cryptonote-util/2acoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/2acoin/node-cryptonote-util?branch=development&svg=true)](https://ci.appveyor.com/project/2acoin/node-cryptonote-util/branch/development)
+[![Build Status](https://github.com/2acoin/node-cryptonote-util/workflows/CI%20Build%20Tests/badge.svg?branch=development)](https://github.com/2acoin/node-cryptonote-util/actions)
 
 # Node-Cryptonote-Util
 
