@@ -1,0 +1,629 @@
+[33mcommit 81167a1e3e581025fa203e3d356f6c5e055adfb7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v0.0.8[m[33m, [m[1;31morigin/development[m[33m, [m[1;32mdevelopment[m[33m)[m
+Merge: d71c7e0 d1fa764
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Thu Oct 29 13:35:56 2020 -0500
+
+    Update with fork parent
+
+[33mcommit d1fa7642b6bcb291a766c3f1be428e11d4b2560b[m[33m ([m[1;31mturtle/master[m[33m)[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 14:32:50 2020 -0400
+
+    Generate prebuilds only on release on ubuntu and strip them then upload them to the github release page
+
+[33mcommit b78f844c4e88fa4a803a357312f0e31e6cc857ac[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 14:11:41 2020 -0400
+
+    no prebuild generation via CI/CD on windows
+
+[33mcommit fc1e809cdadfd2f316bfc4e71f6b391716d48b05[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 13:44:20 2020 -0400
+
+    Yeah, we need these to get the prebuilds to generate and some platforms are just meh
+
+[33mcommit d4393f96e4d56571ec485977927a66b70b17c344[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 13:36:44 2020 -0400
+
+    Test prebuild generation
+
+[33mcommit 3fb6e3852e9d9df9a2d71a70301c33f4ded8c121[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 12:10:18 2020 -0400
+
+    Additional tests to prove i'm not crazy
+
+[33mcommit 9adfc2b32cf8d006dacd706203de33fcbf989411[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 10:12:16 2020 -0400
+
+    Test get_block_id
+
+[33mcommit d36bbcb3cbc19a81834392eca7b9e386492eb981[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 10:06:36 2020 -0400
+
+    Update documentation
+
+[33mcommit 9cd8b143f0a96ca1848a4ca066461490b2d8bcd1[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 10:06:11 2020 -0400
+
+    Add additional base test cases
+
+[33mcommit 3a6ffeba92647b1c109314855312b9b0021111ec[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:47:46 2020 -0400
+
+    Generated documentation
+
+[33mcommit 93ee156e912a5624ccb6e2bd7c41024a22f3f264[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:47:30 2020 -0400
+
+    generate all prebuilds
+
+[33mcommit 23f84a4fefb2fa66852dd193cb1bd1d5e3800c44[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:45:57 2020 -0400
+
+    Update README.md
+
+[33mcommit 81ed6c78bbc682e9161e70aef28a379cb4beebdc[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:35:31 2020 -0400
+
+    JSdoc comments
+
+[33mcommit 5cf2aa5fc98e192d52c76d6dd958cb56ceb07144[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:35:20 2020 -0400
+
+    Add eslint rules
+
+[33mcommit b5e77403fa52340e43e2664842431cf57f0d92f4[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:21:28 2020 -0400
+
+    do not commit dist folder to repo
+
+[33mcommit 51c66b7b99407898b85417f4c26536623a343d71[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:08:55 2020 -0400
+
+    CNAME for docs
+
+[33mcommit 6b0e47c9a18ccac0b0298cf939dc35218dbfe169[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 09:08:23 2020 -0400
+
+    CommonJS now with TS typings
+
+[33mcommit 4e783b978620160ad97a972014b712278f3f0785[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:35:27 2020 -0400
+
+    Node.js v10+ only at this point (LTS+ only)
+
+[33mcommit c9b21fe344c6f18a96ac3977667d714af6b9ef1c[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:31:46 2020 -0400
+
+    add prebuild installation support
+
+[33mcommit a86afd301573233912c56f9628aa0c7e348606bf[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:30:33 2020 -0400
+
+    Not going to patch this and sort out the binding.gyp for OS X right this minute
+
+[33mcommit 172d41f4aca2493a45eafbb09cb17795f3f60706[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:26:40 2020 -0400
+
+    Switch to GH actions CI/CD
+
+[33mcommit 5b3d3597e44aedcd012755bb483311d6d1c1c662[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:22:11 2020 -0400
+
+    update gitignore
+
+[33mcommit c5f8b9e0bad8f173657c002e3d44a76bcfb3fc61[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:21:44 2020 -0400
+
+    remove extra erroneously added dependency
+
+[33mcommit 8aa553da53d01c89afaa7e42731c7c8f3f729194[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:17:22 2020 -0400
+
+    Handle updates to NaN SDK for newer versions of Node.js
+
+[33mcommit 8e2b6ead028e7a9c341a1513721044663a2cd3c1[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 08:00:40 2020 -0400
+
+    Updated dependencies
+
+[33mcommit 394f230369fea5786e4fb64d6ce30cdf1b8e7725[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Aug 16 07:57:10 2020 -0400
+
+    Add support for major block v7
+
+[33mcommit d71c7e0eccfe9f97c75f3facafa3814017bffd15[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Tue Nov 19 14:23:18 2019 -0600
+
+    Appveyor fails for boost dependencies
+
+[33mcommit cd39c97aaf1d892bebd7fe033eda6d11d7a1c0c8[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Tue Nov 19 13:35:00 2019 -0600
+
+    Travis looks good now
+
+[33mcommit 71f691656f52678d54f6805bce6450f7811d4a73[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Tue Nov 19 13:23:58 2019 -0600
+
+    Work on CI builds for success tests
+
+[33mcommit f2d2b46090b9f4ae6e72a993ab14c27265a1a949[m
+Merge: ef96a68 f812fce
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Thu Jun 6 18:11:20 2019 -0500
+
+    Merge Major Block Version 6 commits to f812fce
+
+[33mcommit f812fcea25022ca874ed06f9f434439c02b46a4d[m[33m ([m[1;31mturtle/development[m[33m)[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Mon May 27 12:06:40 2019 -0400
+
+    Adding support for Major Block Version 6
+
+[33mcommit f1dc30aedda1190ae56c542284b1f058ae3c4b29[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun May 5 16:58:24 2019 -0400
+
+    Update dependencies
+
+[33mcommit c399f61eb682af62094dc3ebb9c74b3737675693[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Mon May 6 11:06:16 2019 -0400
+
+    Add AppVeyor.yml
+
+[33mcommit ef96a68d8d31411be45951b2336addc7abbaabf0[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Wed Mar 13 10:50:02 2019 -0500
+
+    Add build tools to appveyor build step
+
+[33mcommit cc24b2cb88d7c604444972b0aeafb9dd830ff02b[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Tue Mar 12 15:50:19 2019 -0500
+
+    Fix typo on package GIT location
+
+[33mcommit eedb811628a8acb3ddecdd30923604bb626a29eb[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Mon Mar 11 15:39:59 2019 -0500
+
+    Add appveyor build/test
+
+[33mcommit 852172cf6537bed239cdb31118a3e2a1526dd99e[m
+Author: 2ACoin Miner <miner@2acoin.org>
+Date:   Mon Mar 11 15:16:31 2019 -0500
+
+    Fix Test Script for 2ACoin
+
+[33mcommit cbf555c8338c8a3db8ed6adb44d46f49767ebd24[m
+Author: Doug F <miner@2acoin.org>
+Date:   Mon Mar 11 15:05:52 2019 -0500
+
+    Add license admiration
+
+[33mcommit 50aa7c5134a9b7ae5db17145eb45dc98393c7d44[m
+Author: Doug F <dougf@ourlink.net>
+Date:   Mon Mar 11 14:47:32 2019 -0500
+
+    Configure packages
+
+[33mcommit 8ae14e9ec58feacda8445aaf88796b9cb84ee1d0[m
+Author: Doug F <dougf@ourlink.net>
+Date:   Mon Mar 11 14:33:18 2019 -0500
+
+    Remove NPM status/option for now
+
+[33mcommit 613c5bff431833b6f56bc47d4dbcdc65894b0644[m
+Author: Doug F <dougf@ourlink.net>
+Date:   Mon Mar 11 14:22:21 2019 -0500
+
+    Add 2ACoin branding
+
+[33mcommit a1bfa377341a42ddfedd035f365d0b63701d52ff[m[33m ([m[1;33mtag: v0.0.6[m[33m)[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Dec 2 15:13:22 2018 -0500
+
+    Removing unused code
+
+[33mcommit 209de38b384c4faaaf61cca09268e0761b0f529a[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Dec 2 15:08:18 2018 -0500
+
+    De-duplicating code for major blocks
+
+[33mcommit e8b9c41cb4357137a7fd17fe62f1003ccaa0723d[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Dec 2 14:47:23 2018 -0500
+
+    Version bump -- forgot
+
+[33mcommit 43fe552d909f56a84f88bf97e9da01a394accea4[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Dec 2 14:46:04 2018 -0500
+
+    Adding support for block major version 5
+
+[33mcommit 23fe500c9b0db5d3faaba7ab957149b45c7c0dd3[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Fri Nov 30 15:27:58 2018 -0500
+
+    Appveyor builds need quite a bit of work here
+
+[33mcommit 0e7f3ab80d23b5d6ba173a0052a23d82a5bfcfad[m
+Merge: e11324a d552cdc
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Tue Oct 9 18:16:25 2018 -0400
+
+    Merge remote-tracking branch 'origin/master' into development
+
+[33mcommit e11324a106dcc3afca92c28bd012ee1f2ea27cdf[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Tue Oct 9 18:14:01 2018 -0400
+
+    We need the vs2015 tools please.
+
+[33mcommit d552cdca4132c96df2673905409a1f1f5d420ab8[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Tue Oct 9 17:48:29 2018 -0400
+
+    shhh, it'll be okay. No need to keep throwing warnings.
+
+[33mcommit d2903a16f797db8dd0b88131976067f0487ad35c[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Tue Oct 9 17:28:46 2018 -0400
+
+    Updated build badges
+
+[33mcommit 7786d7cc635f7fe7359f1fe6500250011f9afdb0[m
+Author: Brandon <brandonlehmann@gmail.com>
+Date:   Sat Oct 6 12:39:45 2018 -0400
+
+    Update README.md
+
+[33mcommit da3cfb52aee1db93d04dbaa8c13586a14ab654aa[m[33m ([m[1;33mtag: v0.0.5[m[33m)[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sat Oct 6 12:27:55 2018 -0400
+
+    Add AppVeyor build file
+
+[33mcommit c261d287c2b27ed62084380f31a1d2d4a45b09f6[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sat Oct 6 12:26:39 2018 -0400
+
+    Add AppVeyor build badges
+
+[33mcommit 1b1777c7e84a8102101baaa21a54eebab9c88f6f[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Tue Oct 2 16:37:52 2018 -0400
+
+    This had small changes that are generated on install
+
+[33mcommit af491d5927143ea793f45d38281775d2fe95f1a7[m
+Merge: 70b980f 2e17a51
+Author: Brandon <brandonlehmann@gmail.com>
+Date:   Tue Oct 2 16:31:08 2018 -0400
+
+    Merge pull request #12 from brandonlehmann/fu_windows
+    
+    Actually Add Windows Support
+
+[33mcommit 2e17a513a3ab85342031f39cb054d57d6e2b6c52[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Tue Oct 2 16:23:48 2018 -0400
+
+    Yeah, I decided to keep this after all.
+
+[33mcommit 8bb31fdfb177e4a618d396dd5e3bce1e7e132932[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Mon Oct 1 22:10:44 2018 -0400
+
+    This adds Windows Support to this handy little package
+
+[33mcommit 70b980ff4e8fbfdb3fb054e734a6dd0adcffbfd0[m[33m ([m[1;33mtag: v0.0.2[m[33m)[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Fri Sep 14 11:49:28 2018 -0400
+
+    Including build badges
+
+[33mcommit e8ead8ab31d2dd2ceda458228b939e4cc6a239ff[m
+Merge: eb33a70 d6d69cc
+Author: Brandon <brandonlehmann@gmail.com>
+Date:   Fri Sep 14 11:43:13 2018 -0400
+
+    Merge pull request #10 from brandonlehmann/fix
+    
+    Fixes https://github.com/turtlecoin/turtle-pool/issues/37
+
+[33mcommit eb33a70b6e54a9d04b84dab6707178999b58c8c5[m
+Merge: d12af42 c30c355
+Author: Brandon <brandonlehmann@gmail.com>
+Date:   Fri Sep 14 11:43:04 2018 -0400
+
+    Merge pull request #9 from brandonlehmann/fix_travis_tests
+    
+    Fixes Travis-CI Build Test
+
+[33mcommit c30c355b7713a9f1c607adb5ac65f82cd1350cb0[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Thu Sep 13 22:04:10 2018 -0400
+
+    Only LTS releases of NodeJS need be tested
+
+[33mcommit d6d69ccf3cc1c883aa26ac7eb7a0064b67957db5[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Thu Sep 13 15:48:07 2018 -0400
+
+    Fixes https://github.com/turtlecoin/turtle-pool/issues/37
+
+[33mcommit 0d160e8f8e327cf1992532ee06fd37ff3d61fa45[m
+Author: Brandon Lehmann <brandonlehmann@gmail.com>
+Date:   Sun Sep 2 22:20:34 2018 -0400
+
+    Fixing Travis-CI build tests as they need boost installed at this time to complete. Also removed non-LTS NodeJS packages from the tests. Technically speaking 0.10 needs removed as well but it can stay for now.
+
+[33mcommit d12af4275aadcc7eae724ba6a1029275762f6103[m
+Merge: ff72e93 be6e837
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Mon Apr 2 08:00:13 2018 +0800
+
+    Merge pull request #7 from sumlnoether/master
+    
+    Reverting everything.
+
+[33mcommit be6e8373ed53baeacc0e961b19009b132aa2fbbe[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Sun Apr 1 23:59:24 2018 +0000
+
+    Reverting everything.
+
+[33mcommit ff72e9375895c108b98430b4345c879115182657[m
+Merge: 83f1bfd 53ecd52
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Mon Apr 2 07:44:02 2018 +0800
+
+    Merge pull request #6 from sumlnoether/master
+    
+    Block majors and minors are now confirmed to work with XMRIG.
+
+[33mcommit 53ecd523f695eeb1df46865acaa1a5799c7c000f[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Sun Apr 1 23:43:19 2018 +0000
+
+    Block majors and minors are now confirmed to work with XMRIG.
+
+[33mcommit 83f1bfd05b517b083cbfe04f3992dc28047f765e[m
+Merge: c8c0e16 8456837
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Mon Apr 2 07:14:16 2018 +0800
+
+    Merge pull request #5 from sumlnoether/master
+    
+    Fixed typo: parent -> parent_block.
+
+[33mcommit 84568371f515e2e982a0a60799dfda40b72b35c2[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Sun Apr 1 23:13:38 2018 +0000
+
+    Fixed typo: parent -> parent_block.
+
+[33mcommit c8c0e1656327fb7ca3e2fe6c9e01973b0ecc911a[m
+Merge: fedc7b7 aa24f92
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Mon Apr 2 07:12:36 2018 +0800
+
+    Merge pull request #4 from sumlnoether/master
+    
+    Returns the right major and minor versions now.
+
+[33mcommit aa24f928f33369ed945e08bc0b71dc9e06e93f5b[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Sun Apr 1 23:11:11 2018 +0000
+
+    Returns the right major and minor versions now.
+
+[33mcommit fedc7b7c6ec08ce0ba4ca2b661cf740d347e0154[m
+Merge: 095e390 bef69ef
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Mon Apr 2 06:42:54 2018 +0800
+
+    Merge pull request #3 from sumlnoether/master
+    
+    Revert "Fixed the block blob not having the right major version."
+
+[33mcommit bef69ef059b7a2a4a98e3a6fdee915663ddf3e97[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Sun Apr 1 22:42:04 2018 +0000
+
+    Revert "Fixed the block blob not having the right major version."
+    
+    This reverts commit 4f6d35e7ae107e55db5eaf5958e1ac755b48f245.
+
+[33mcommit 095e390947ff8b23ea7a13834415e575beae9246[m
+Merge: 03c6bf1 4f6d35e
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Mon Apr 2 05:32:44 2018 +0800
+
+    Merge pull request #2 from sumlnoether/master
+    
+    Fixed the block blob not having the right major version.
+
+[33mcommit 4f6d35e7ae107e55db5eaf5958e1ac755b48f245[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Sun Apr 1 21:31:04 2018 +0000
+
+    Fixed the block blob not having the right major version.
+
+[33mcommit 03c6bf19a3f86011bdbb6623b3234c465d1a768b[m
+Merge: 1138e27 b4b6caf
+Author: Suml Noether <37329252+sumlnoether@users.noreply.github.com>
+Date:   Tue Mar 27 13:59:54 2018 +0800
+
+    Merge pull request #1 from sumlnoether/master
+    
+    Support the Cryptonight (Block Major Version 3) to Cryptonight-Lite Variant 1 (Block Major Version 4) Switch
+
+[33mcommit b4b6caf332141eb642fa867004a1bda1bda8df34[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Mon Mar 26 18:15:03 2018 +0000
+
+    Updated to work with block major version 4.
+
+[33mcommit 3ba1fe1d6d99f656d7bc95210870079ac7ec7649[m
+Author: Suml Noether <whydo+youlookmeup@quiet.org>
+Date:   Mon Mar 26 10:36:35 2018 +0000
+
+    Updated to compile on node 8.
+
+[33mcommit 1138e27ea30fadad20f589d59f430ec4c3968a09[m
+Author: Petar Mitchev <petar@imeleon.com>
+Date:   Fri Apr 22 06:20:17 2016 +0300
+
+    Because fuck logic
+
+[33mcommit e5ac0405618a08b8ea08c93a0385bfdbc8459ba9[m
+Author: Petar Mitchev <petar@imeleon.com>
+Date:   Thu Apr 21 19:14:04 2016 +0300
+
+    Attempt 2
+
+[33mcommit 73f7d00915310726c22d0a6d99ee070fca9adea5[m
+Merge: 1aad169 fc27bad
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 23:57:41 2014 +0400
+
+    Merge branch 'address_checking'
+
+[33mcommit fc27bad5976879d80f1c59f512b5bfee894b677a[m
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 23:57:34 2014 +0400
+
+    check_address function replaced by address_decode that parse address, check it, and returns its prefix
+
+[33mcommit 1aad169d2825d4e092ec89a7256ca2a5e8714894[m
+Merge: 1cb6493 7be578d
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 20:10:07 2014 +0400
+
+    Merge branch 'fantomcoin_support'
+
+[33mcommit 7be578d26df86ceae584dc1ae3e6b37cd25c8483[m
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 20:09:54 2014 +0400
+
+    Fix error with calculating FantomCoin block ID
+
+[33mcommit 1cb649393a4baeb3a304494684645338eddae54a[m
+Merge: a3a3cb6 d5f9b1a
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 14:55:59 2014 +0400
+
+    Merge branch 'address_checking'
+
+[33mcommit a3a3cb69afede0994e8c7a1df03b4718dccf4e6e[m
+Merge: 71f1a6d 8c6c331
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 14:55:50 2014 +0400
+
+    Merge branch 'fantomcoin_support'
+
+[33mcommit d5f9b1a80a49583ef96a79694dd556df944e5c51[m
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 14:33:55 2014 +0400
+
+    Proper address checking for all CryptoNote currencies
+
+[33mcommit 8c6c331544a2c4d4ef02a0ce56118a7ec1ed659f[m
+Author: CliffordST <cliffordstone@gmx.ch>
+Date:   Thu Jul 3 14:31:22 2014 +0400
+
+    Major update! Added support for FantomCoin blocks
+
+[33mcommit 71f1a6d8c27e232911f6070b81a7c463ba9e7ea9[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Sat Jun 7 01:38:18 2014 +0100
+
+    Hash transaction prefix instead of transaction
+
+[33mcommit 3c9f7ffb28f29a9205decce608968a289cd1dea0[m
+Merge: e421f31 e7edc17
+Author: Lucas Jones <LucasJones@users.noreply.github.com>
+Date:   Wed Jun 4 18:18:21 2014 +0100
+
+    Merge pull request #1 from LucasJones/dev
+    
+    Initial boolberry support
+
+[33mcommit e7edc170be272b3ad63542b91fbda3a12232e31e[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Sat May 31 19:15:41 2014 +0100
+
+    Initial boolberry support
+
+[33mcommit e421f3163e988d92cebcde903abf899327fe219f[m
+Author: Lucas Jones <LucasJones@users.noreply.github.com>
+Date:   Wed May 21 20:37:43 2014 +0100
+
+    Small bugfix
+
+[33mcommit f6a6e8fd34601e223aeaffc238472578da79c572[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Sat May 17 17:46:58 2014 +0100
+
+    Return address prefix
+
+[33mcommit a641070b9d730495a1c6c8274191c6aa609e362f[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Sat May 17 16:40:59 2014 +0100
+
+    Address decoding
+
+[33mcommit 61e0c967eab78cc407ae5deace29c5f1804d0ed2[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Fri May 16 21:54:01 2014 +0100
+
+    Fix linking errors
+
+[33mcommit 0532cd74bfee42f90edf409ce3a1d087342aa6ae[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Fri May 16 12:20:41 2014 +0100
+
+    Compatibility fixes
+
+[33mcommit 686de4b2a189c26815d486890538f9be809331cc[m
+Author: Lucas Jones <LucasJones@users.noreply.github.com>
+Date:   Thu May 15 18:07:32 2014 +0100
+
+    Fix compiler warnings
+
+[33mcommit 515f6df0acef0dc88f0e0f76e5b20b810d0f2602[m
+Author: lucas <lucasjonesdev@hotmail.co.uk>
+Date:   Thu May 15 12:20:48 2014 +0100
+
+    Initial commit
