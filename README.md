@@ -10,6 +10,9 @@
 
 # Node-Cryptonote-Util
 
+**Note:** We build prebuilds of the Node.js native addon module binaries that are included for distribution with the NPM
+installed version of this package to speed up your development and use of this package.
+
 Supported on the following platforms:
 
 * Linux 64-bit
@@ -17,7 +20,7 @@ Supported on the following platforms:
 
 ## Dependencies
 
-* NodeJS (https://nodejs.org/) 10+
+* Node.js LTS (https://nodejs.org/) 10+
 * Boost (http://www.boost.org/)
 
 #### Windows (if not using prebuilds)
