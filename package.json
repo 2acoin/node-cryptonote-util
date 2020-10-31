@@ -1,7 +1,8 @@
 {
     "name": "2acoin-cryptonote-util",
-    "version": "0.0.8",
-    "main": "cryptonote",
+    "version": "0.0.9",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "gypfile": true,
     "author": {
         "name": "LucasJones",

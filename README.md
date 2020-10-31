@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![image](https://i.imgur.com/fWVGDMA.png)
 
 #### Master Build Status
@@ -6,6 +5,8 @@
 
 #### Development Build Status
 [![Build Status](https://github.com/2acoin/node-cryptonote-util/workflows/CI%20Build%20Tests/badge.svg?branch=development)](https://github.com/2acoin/node-cryptonote-util/actions)
+
+[![NPM](https://nodei.co/npm/2acoin-cryptonote-util.png?downloads=true&stars=true)](https://nodei.co/npm/2coin-cryptonote-util/)
 
 # Node-Cryptonote-Util
 
@@ -16,33 +17,52 @@ Supported on the following platforms:
 
 ## Dependencies
 
-* NodeJS (https://nodejs.org/) v6/8/10
+* NodeJS (https://nodejs.org/) 10+
 * Boost (http://www.boost.org/)
 
-## Installation Instructions
+#### Windows (if not using prebuilds)
 
-### *Nix
-
-```bash
-sudo apt-get install libboost-all-dev
-git clone https://github.com/2acoin/node-cryptonote-util
-cd node-cryptonote-util
-npm install && npm test
-```
-
-### Windows
-
-#### Prerequisite
-
-Read very carefully if you want this to work right the first time.
+Read very careful if you want this to work right the first time.
 
 1) Open a *Windows Powershell* console as **Administrator**
+
 2) Run the command: `npm install -g windows-build-tools --vs2015`
    ***This will take a while. Sit tight.***
-   
-Once the prerequisites are complete, proceed with the following:
+
+## Installation
 
 ```bash
-cd <your node-cryptonote-util directory>
-npm install && npm test
+npm install 2acoin-cryptonote-util
 ```
+
+### Intialization
+
+#### TypeScript
+
+##### Importing Individual Synchronous Methods
+
+```javascript
+import { 
+    address_decode, 
+    construct_block_blob, 
+    convert_blob, 
+    convert_blob_bb, 
+    get_block_id 
+} from '2acoin-cryptonote-util';
+```
+
+##### Importing Async Class
+
+```javascript
+import CryptoNoteUtils from '2acoin-cryptonote-util';
+```
+
+#### CommonJS
+
+```javascript
+const cnUtils = require('2acoin-cryptonote-util');
+```
+
+### Documentation
+
+You can find the full TypeScript/JS documentation for this library [here](https://cnutils.2acoin.dev).
